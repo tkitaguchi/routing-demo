@@ -1,0 +1,152 @@
+.App {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1db954;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1ed760;
+  }
+  
+  .music-player {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+    width: 300px;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .music-player img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .joke--text {
+    font-family: Roboto, sans;
+  }
+  
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+ 
+
+} 
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #8EC1D6;
+}
+
+.SearchContainer{
+  margin:20px auto;
+  width: 500px;
+  height: 600px;
+  background-color: #3CB35A;
+  border-radius: 10px;  
+
+  
+}
+.SearchContainer .SearchForm{
+  display: flex;
+  flex-direction: row;
+}
+
+.SearchContainer h2{
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+  margin: 20px auto;
+}
+
+.SearchContainer input{
+  display: block;
+  width: 60%;
+  height: 55px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 16px;
+  color: black;
+}
+.SearchContainer button{
+  background-color: #8EC1D6;
+  width: 15%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius:7px;
+  margin: 5px 19px;
+  border: none;
+  padding: 0 10px;
+
+}
+.SearchContainer .logOut{
+  background-color: #d64e64;
+  padding: 5px 5px;
+  font-size: 20px;
+  
+ 
+
+}
+
+.SearchContainer a{
+  background-color: #8EC1D6;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius:7px;
+  padding: 8px 10px;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+
+}
+.SearchContainer button:hover{
+  background-color: #6EA4B9;
+}
